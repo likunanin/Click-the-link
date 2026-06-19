@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boo! Have a Wonderful Day! 🌟</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Card Container -->
+    <div class="card">
+        
+        <!-- Navigation Tabs for Pages -->
+        <div class="nav-tabs">
+            <button class="tab-btn active" onclick="switchPage('page1')">💖 Hey Boo</button>
+            <button class="tab-btn" onclick="switchPage('page2')">🐘 Little Reminder</button>
+            <button class="tab-btn" onclick="switchPage('page3')">🎱 Lucky 8</button>
+        </div>
+
+        <!-- PAGE 1: The Main Message -->
+        <div id="page1" class="page active">
+            <!-- Animated Cute Elephant -->
+            <div class="elephant-container">
+                <div class="elephant">
+                    <div class="ear"></div>
+                    <div class="eye"></div>
+                    <div class="trunk"></div>
+                    <div class="blush"></div>
+                </div>
+            </div>
+            <h1>Boo!</h1>
+            <p class="message">Have a wonderful day at work! ✨</p>
+            <p class="quote">"You are capable of amazing things today!"</p>
+        </div>
+
+        <!-- PAGE 2: Elephant Wisdom Quote -->
+        <div id="page2" class="page">
+            <div class="huge-emoji">🐘</div>
+            <h2>Be Like the Elephant...</h2>
+            <p class="quote">"Stand tall, stay strong, and remember you can handle any big task, one little step at a time." 🌟</p>
+        </div>
+
+        <!-- PAGE 3: Magic 8-Ball Luck Quote -->
+        <div id="page3" class="page">
+            <!-- Cute Billiard 8-Ball -->
+            <div class="billiard-eight">
+                <div class="white-circle">8</div>
+            </div>
+            <h2>Lucky Day!</h2>
+            <p class="quote">"Signs point to YES: You are absolutely going to crush it today!" 🎱</p>
+        </div>
+
+        <!-- Support Button (Always Visible) -->
+        <button id="supportBtn">Click for support 🥺💞</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
